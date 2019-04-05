@@ -1,11 +1,14 @@
 import React, {Component} from 'react'
 import { Button } from 'reactstrap';
+import {Navbar, NavbarBrand} from 'reactstrap'
 
 class Header extends Component {
   render() {
     return (
       <div className="Header">
-        <h1>test 2</h1>
+        <Navbar color="faded" light>
+          <NavbarBrand href="/" className="mr-auto">Activity Recommendation</NavbarBrand>
+        </Navbar>
 
       </div>
     )
